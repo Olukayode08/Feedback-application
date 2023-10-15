@@ -30,6 +30,8 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ff6a95;
 }
 
 .card {
@@ -194,9 +196,17 @@ input:focus {
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
  * document */
+ .about-link {
+  position: relative;
+ }
 .about-link a {
   color: #fff;
   cursor: pointer;
+}
+.question{
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
 }
 
 .about-link a:hover {
